@@ -28,6 +28,9 @@ else:
         with st.chat_message(message["role"]):
             st.markdown(message["content"])
 
+    st.write("가고 싶은 여행지가 어디인가요?") 
+    
+    
     # Create a chat input field to allow the user to enter a message. This will display
     # automatically at the bottom of the page.
     if prompt := st.chat_input("What is up?"):
